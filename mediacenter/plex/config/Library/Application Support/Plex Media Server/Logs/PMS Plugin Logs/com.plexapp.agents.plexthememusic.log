@@ -1,0 +1,61 @@
+2018-02-01 02:53:02,476 (7fbac246e700) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: f54242b (Wed Dec 13 13:33:31 UTC 2017)
+2018-02-01 02:53:02,476 (7fbac246e700) :  DEBUG (core:361) - Using the elevated policy
+2018-02-01 02:53:02,477 (7fbac246e700) :  DEBUG (core:450) - Starting runtime component.
+2018-02-01 02:53:02,478 (7fbac246e700) :  DEBUG (core:450) - Starting caching component.
+2018-02-01 02:53:02,478 (7fbac246e700) :  DEBUG (core:450) - Starting data component.
+2018-02-01 02:53:02,479 (7fbac246e700) :  DEBUG (core:450) - Starting networking component.
+2018-02-01 02:53:02,481 (7fbac246e700) :  DEBUG (networking:284) - Loaded HTTP cookies
+2018-02-01 02:53:02,482 (7fbac246e700) :  DEBUG (caching:108) - No info file found, trashing the cache folder
+2018-02-01 02:53:02,483 (7fbac246e700) :  DEBUG (networking:452) - Setting the default network timeout to 20.0
+2018-02-01 02:53:02,484 (7fbac246e700) :  DEBUG (core:450) - Starting localization component.
+2018-02-01 02:53:02,484 (7fbac246e700) :  INFO (localization:409) - Setting the default locale to en-us
+2018-02-01 02:53:02,484 (7fbac246e700) :  DEBUG (core:450) - Starting messaging component.
+2018-02-01 02:53:02,484 (7fbac246e700) :  DEBUG (core:450) - Starting debugging component.
+2018-02-01 02:53:02,484 (7fbac246e700) :  DEBUG (core:450) - Starting services component.
+2018-02-01 02:53:02,485 (7fbac246e700) :  DEBUG (core:450) - Starting myplex component.
+2018-02-01 02:53:02,485 (7fbaa27fc700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.plexthememusic'
+2018-02-01 02:53:02,485 (7fbac246e700) :  DEBUG (core:450) - Starting notifications component.
+2018-02-01 02:53:02,605 (7fbac246e700) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.plexthememusic in namespace 'metadata'
+2018-02-01 02:53:02,609 (7fbac246e700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2018-02-01 02:53:02,623 (7fbaa27fc700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2018-02-01 02:53:02,623 (7fbac246e700) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2018-02-01 02:53:02,624 (7fbaa27fc700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2018-02-01 02:53:02,625 (7fbac246e700) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2018-02-01 02:53:02,625 (7fbac246e700) :  DEBUG (core:150) - Finished starting framework core
+2018-02-01 02:53:02,625 (7fbaa17fa700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400'
+2018-02-01 02:53:02,625 (7fbac246e700) :  DEBUG (core:560) - Loading plug-in code
+2018-02-01 02:53:02,633 (7fbaa17fa700) :  DEBUG (core:538) - Machine identifier is 965e8e5178394219e46d20de8d21e4b2515c62c8
+2018-02-01 02:53:02,633 (7fbaa17fa700) :  DEBUG (core:539) - Server version is 1.10.1.4602-f54242b6b
+2018-02-01 02:53:02,642 (7fbac246e700) :  DEBUG (core:566) - Finished loading plug-in code
+2018-02-01 02:53:02,643 (7fbac246e700) :  DEBUG (agentkit:1115) - Creating new agent class called PlexThemeMusicAgent
+2018-02-01 02:53:02,643 (7fbac246e700) :  DEBUG (agentkit:933) - Updating agent information: [{'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb', 'com.plexapp.agents.thetvdbdvdorder', 'com.plexapp.agents.themoviedb'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': False, 'name': 'Plex Theme Music'}]
+2018-02-01 02:53:02,643 (7fbac246e700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMzCmNvbS5wbGV4YXBwLmFnZW50cy5wbGV4dGhlbWVtdXNpY3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMHM1CnByZWZzczE2ClBsZXggVGhlbWUgTXVzaWNzNApuYW1lMQpzNwpUVl9TaG93MwpzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJzMzQKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJkdmRvcmRlcnMyOQpjb20ucGxleGFwcC5hZ2VudHMudGhlbW92aWVkYjEKczIKeG5yMAo_'
+2018-02-01 02:53:02,658 (7fbac246e700) :  INFO (core:611) - Started plug-in
+2018-02-01 02:53:02,658 (7fbac246e700) :  DEBUG (socketinterface:160) - Starting socket server
+2018-02-01 02:53:02,659 (7fbac246e700) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2018-02-01 02:53:02,659 (7fbac246e700) :  INFO (socketinterface:184) - Socket server started on port 37161
+2018-02-01 02:53:02,660 (7fbac246e700) :  INFO (pipeinterface:25) - Entering run loop
+2018-02-01 02:53:02,660 (7fbac246e700) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2018-02-01 02:53:02,665 (7fbac246e700) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2018-02-01 02:53:02,666 (7fbac246e700) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 158 bytes
+2018-02-01 02:53:02,675 (7fbaa0ff9700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.plexthememusic/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmVuczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMTIxMzYxP2xhbmc9ZW5zNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKMXMyCmlkcjAK
+2018-02-01 02:53:02,727 (7fbaa0ff9700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.plexthememusic/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmVuczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMTIxMzYxP2xhbmc9ZW5zNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKMXMyCmlkcjAK
+2018-02-01 02:53:02,729 (7fbaa0ff9700) :  INFO (agentkit:957) - Searching for matches for {'id': '1', 'guid': 'com.plexapp.agents.thetvdb://121361?lang=en', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': None}
+2018-02-01 02:53:02,729 (7fbaa0ff9700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2018-02-01 02:53:02,767 (7fbaa27fc700) :  DEBUG (services:362) - Loaded services
+2018-02-01 02:53:02,770 (7fbaa1ffb700) :  DEBUG (services:438) - No shared code to load
+2018-02-01 02:53:02,772 (7fbaa0ff9700) :  DEBUG (accessor:68) - Creating a new read-only model access point for provider com.plexapp.agents.thetvdb in namespace 'metadata'
+2018-02-01 02:53:02,775 (7fbaa0ff9700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://121361?lang=en
+2018-02-01 02:53:02,777 (7fbaa0ff9700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/f/a215bff4391343518c5395c44283513bfd17cea.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2018-02-01 02:53:02,807 (7fbaa0ff9700) :  DEBUG (runtime:88) - Sending packed state data (114 bytes)
+2018-02-01 02:53:02,807 (7fbaa0ff9700) :  DEBUG (runtime:924) - Response: [200] str, 604 bytes
+2018-02-01 02:53:02,814 (7fbaa0ff9700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.plexthememusic/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZW5zNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8xMjEzNjE%40bGFuZz1lbnM0Cmd1aWRzNgoxMjEzNjFzMgppZHIwCg__
+2018-02-01 02:53:02,816 (7fbaa0ff9700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.plexthememusic/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZW5zNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8xMjEzNjE@bGFuZz1lbnM0Cmd1aWRzNgoxMjEzNjFzMgppZHIwCg__
+2018-02-01 02:53:02,816 (7fbaa0ff9700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://121361?lang=en
+2018-02-01 02:53:02,816 (7fbaa0ff9700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/f/a215bff4391343518c5395c44283513bfd17cea.bundle/Contents/com.plexapp.agents.plexthememusic
+2018-02-01 02:53:02,817 (7fbaa0ff9700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2018-02-01 02:53:02,821 (7fbaa0ff9700) :  DEBUG (networking:166) - Requesting 'https://tvthemes.plexapp.com/121361.mp3'
+2018-02-01 02:53:04,315 (7fbaa0ff9700) :  DEBUG (networking:198) - Not caching 'https://tvthemes.plexapp.com/121361.mp3' (content type 'audio/mpeg' not cacheable in Agent plug-ins)
+2018-02-01 02:53:04,322 (7fbaa0ff9700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/f/a215bff4391343518c5395c44283513bfd17cea.bundle/Contents/com.plexapp.agents.plexthememusic/Info.xml
+2018-02-01 02:53:04,325 (7fbaa0ff9700) :  DEBUG (runtime:88) - Sending packed state data (598 bytes)
+2018-02-01 02:53:04,326 (7fbaa0ff9700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes

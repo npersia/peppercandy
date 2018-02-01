@@ -1,0 +1,63 @@
+2018-02-01 01:44:45,941 (7eff6ec67700) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: f54242b (Wed Dec 13 13:33:31 UTC 2017)
+2018-02-01 01:44:45,941 (7eff6ec67700) :  DEBUG (core:361) - Using the elevated policy
+2018-02-01 01:44:45,941 (7eff6ec67700) :  DEBUG (core:450) - Starting runtime component.
+2018-02-01 01:44:45,966 (7eff6ec67700) :  DEBUG (core:450) - Starting caching component.
+2018-02-01 01:44:45,967 (7eff6ec67700) :  DEBUG (core:450) - Starting data component.
+2018-02-01 01:44:45,967 (7eff6ec67700) :  DEBUG (core:450) - Starting networking component.
+2018-02-01 01:44:45,967 (7eff6ec67700) :  DEBUG (networking:288) - No cookie jar found
+2018-02-01 01:44:45,968 (7eff6ec67700) :  DEBUG (networking:452) - Setting the default network timeout to 20.0
+2018-02-01 01:44:45,968 (7eff6ec67700) :  DEBUG (core:450) - Starting localization component.
+2018-02-01 01:44:45,969 (7eff6ec67700) :  INFO (localization:409) - Setting the default locale to en-us
+2018-02-01 01:44:45,969 (7eff6ec67700) :  DEBUG (core:450) - Starting messaging component.
+2018-02-01 01:44:45,969 (7eff6ec67700) :  DEBUG (core:450) - Starting debugging component.
+2018-02-01 01:44:45,970 (7eff6ec67700) :  DEBUG (core:450) - Starting services component.
+2018-02-01 01:44:45,970 (7eff6ec67700) :  DEBUG (core:450) - Starting myplex component.
+2018-02-01 01:44:45,970 (7eff6ec67700) :  DEBUG (core:450) - Starting notifications component.
+2018-02-01 01:44:45,980 (7eff4effd700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.themoviedb'
+2018-02-01 01:44:46,115 (7eff6ec67700) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.themoviedb in namespace 'metadata'
+2018-02-01 01:44:46,122 (7eff6ec67700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2018-02-01 01:44:46,433 (7eff6ec67700) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2018-02-01 01:44:46,434 (7eff4effd700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2018-02-01 01:44:46,436 (7eff4effd700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2018-02-01 01:44:46,448 (7eff6ec67700) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2018-02-01 01:44:46,449 (7eff6ec67700) :  DEBUG (core:150) - Finished starting framework core
+2018-02-01 01:44:46,449 (7eff6ec67700) :  DEBUG (core:560) - Loading plug-in code
+2018-02-01 01:44:46,492 (7eff4dffb700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400'
+2018-02-01 01:44:46,495 (7eff4effd700) :  DEBUG (services:362) - Loaded services
+2018-02-01 01:44:46,500 (7eff4e7fc700) :  DEBUG (services:438) - No shared code to load
+2018-02-01 01:44:46,502 (7eff4dffb700) :  DEBUG (core:538) - Machine identifier is 965e8e5178394219e46d20de8d21e4b2515c62c8
+2018-02-01 01:44:46,502 (7eff4dffb700) :  DEBUG (core:539) - Server version is 1.10.1.4602-f54242b6b
+2018-02-01 01:44:46,802 (7eff6ec67700) :  DEBUG (core:566) - Finished loading plug-in code
+2018-02-01 01:44:46,802 (7eff6ec67700) :  DEBUG (messaging:69) - Exposing function GetImdbId for remote access
+2018-02-01 01:44:46,802 (7eff6ec67700) :  DEBUG (messaging:69) - Exposing function GetTvdbId for remote access
+2018-02-01 01:44:46,803 (7eff6ec67700) :  DEBUG (messaging:69) - Exposing function GetTvRageId for remote access
+2018-02-01 01:44:46,803 (7eff6ec67700) :  DEBUG (messaging:69) - Exposing function GetTMDbSearchResults for remote access
+2018-02-01 01:44:46,803 (7eff6ec67700) :  DEBUG (messaging:69) - Exposing function GetTMDbMetadata for remote access
+2018-02-01 01:44:46,803 (7eff6ec67700) :  DEBUG (agentkit:1115) - Creating new agent class called TMDbAgent
+2018-02-01 01:44:46,804 (7eff6ec67700) :  DEBUG (agentkit:933) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': ['com.plexapp.agents.localmedia'], 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'cs', 'da', 'de', 'el', 'es', 'fi', 'fr', 'he', 'hr', 'hu', 'it', 'lv', 'nl', 'no', 'pl', 'pt', 'ru', 'sk', 'sv', 'th', 'tr', 'vi', 'zh', 'ko'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'The Movie Database'}]
+2018-02-01 01:44:46,805 (7eff6ec67700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczI5CmNvbS5wbGV4YXBwLmFnZW50cy50aGVtb3ZpZWRiczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzcjQKczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRuczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjFzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTgKVGhlIE1vdmllIERhdGFiYXNlczQKbmFtZTEKczUKTW92aWUxCnMyOQpjb20ucGxleGFwcC5hZ2VudHMubG9jYWxtZWRpYTI1CnMyCmVuczIKY3NzMgpkYXMyCmRlczIKZWxzMgplc3MyCmZpczIKZnJzMgpoZXMyCmhyczIKaHVzMgppdHMyCmx2czIKbmxzMgpub3MyCnBsczIKcHRzMgpydXMyCnNrczIKc3ZzMgp0aHMyCnRyczIKdmlzMgp6aHMyCmtvcjAK'
+2018-02-01 01:44:46,844 (7eff6ec67700) :  DEBUG (agentkit:1115) - Creating new agent class called TMDbAgent
+2018-02-01 01:44:46,845 (7eff6ec67700) :  DEBUG (agentkit:933) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': ['com.plexapp.agents.localmedia'], 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'cs', 'da', 'de', 'el', 'es', 'fi', 'fr', 'he', 'hr', 'hu', 'it', 'lv', 'nl', 'no', 'pl', 'pt', 'ru', 'sk', 'sv', 'th', 'tr', 'vi', 'zh', 'ko'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'The Movie Database'}, {'media_types': ['TV_Show'], 'accepts_from': ['com.plexapp.agents.localmedia', 'com.plexapp.agents.thetvdb'], 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb'], 'languages': ['en', 'cs', 'da', 'de', 'el', 'es', 'fi', 'fr', 'he', 'hr', 'hu', 'it', 'lv', 'nl', 'no', 'pl', 'pt', 'ru', 'sk', 'sv', 'th', 'tr', 'vi', 'zh', 'ko'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'The Movie Database'}]
+2018-02-01 01:44:46,846 (7eff6ec67700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxMApkaWN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczI5CmNvbS5wbGV4YXBwLmFnZW50cy50aGVtb3ZpZWRiczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzIKcjIKcjYKMTAKcjMKczExCm1lZGlhX3R5cGVzcjQKczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRuczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjFzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTgKVGhlIE1vdmllIERhdGFiYXNlczQKbmFtZTEKczUKTW92aWUxCnMyOQpjb20ucGxleGFwcC5hZ2VudHMubG9jYWxtZWRpYTI1CnMyCmVuczIKY3NzMgpkYXMyCmRlczIKZWxzMgplc3MyCmZpczIKZnJzMgpoZXMyCmhyczIKaHVzMgppdHMyCmx2czIKbmxzMgpub3MyCnBsczIKcHRzMgpydXMyCnNrczIKc3ZzMgp0aHMyCnRyczIKdmlzMgp6aHMyCmtvMTAKcjcKczExCm1lZGlhX3R5cGVzcjgKczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRyOQpzMTQKY29udHJpYnV0ZXNfdG9yNQpzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3MxOApUaGUgTW92aWUgRGF0YWJhc2VzNApuYW1lMQpzNwpUVl9TaG93MgpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLmxvY2FsbWVkaWFzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGIxCnMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnIwCg__'
+2018-02-01 01:44:46,860 (7eff6ec67700) :  INFO (core:611) - Started plug-in
+2018-02-01 01:44:46,860 (7eff6ec67700) :  DEBUG (socketinterface:160) - Starting socket server
+2018-02-01 01:44:46,864 (7eff6ec67700) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2018-02-01 01:44:46,864 (7eff6ec67700) :  INFO (socketinterface:184) - Socket server started on port 43693
+2018-02-01 01:44:46,865 (7eff6ec67700) :  INFO (pipeinterface:25) - Entering run loop
+2018-02-01 01:44:46,865 (7eff6ec67700) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2018-02-01 01:44:46,866 (7eff6ec67700) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2018-02-01 01:44:46,867 (7eff6ec67700) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 154 bytes
+2018-02-01 01:45:51,363 (7eff4e7fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.themoviedb/reloadServices
+2018-02-01 01:45:51,373 (7eff4e7fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.themoviedb/reloadServices
+2018-02-01 01:45:51,373 (7eff4e7fc700) :  DEBUG (services:15) - Reloading services
+2018-02-01 01:45:51,373 (7eff4e7fc700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2018-02-01 01:45:51,374 (7eff4e7fc700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2018-02-01 01:45:51,446 (7eff4e7fc700) :  DEBUG (services:362) - Loaded services
+2018-02-01 01:45:51,447 (7eff4e7fc700) :  DEBUG (runtime:924) - Response: [200] bool, 0 bytes
+2018-02-01 01:45:52,883 (7eff4e7fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.themoviedb/reloadServices
+2018-02-01 01:45:52,886 (7eff4e7fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.themoviedb/reloadServices
+2018-02-01 01:45:52,886 (7eff4e7fc700) :  DEBUG (services:15) - Reloading services
+2018-02-01 01:45:52,887 (7eff4e7fc700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2018-02-01 01:45:52,889 (7eff4e7fc700) :  DEBUG (networking:166) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2018-02-01 01:45:53,058 (7eff4e7fc700) :  DEBUG (services:362) - Loaded services
+2018-02-01 01:45:53,058 (7eff4e7fc700) :  DEBUG (runtime:924) - Response: [200] bool, 0 bytes

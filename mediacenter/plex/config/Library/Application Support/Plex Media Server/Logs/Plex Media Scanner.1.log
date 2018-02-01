@@ -1,0 +1,18 @@
+Feb 01, 2018 02:31:06.323 [0x7f617a7ff700] INFO - Plex Media Scanner v1.10.1.4602-f54242b6b - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Feb 01, 2018 02:31:06.323 [0x7f617a7ff700] INFO - Linux version: 4.13.16-202.fc26.x86_64 (#1 SMP Thu Nov 30 15:39:32 UTC 2017), language: en-US
+Feb 01, 2018 02:31:06.323 [0x7f617a7ff700] INFO - Processor Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+Feb 01, 2018 02:31:06.323 [0x7f617a7ff700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2
+Feb 01, 2018 02:31:06.323 [0x7f6185db3800] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Feb 01, 2018 02:31:06.462 [0x7f6185db3800] DEBUG - Scanning Series de TV using en(Plex Series Scanner) with 0 current media items and 1 section locations in the database...
+Feb 01, 2018 02:31:06.462 [0x7f6178fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1517451066
+Feb 01, 2018 02:31:06.464 [0x7f6178fff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1517451066
+Feb 01, 2018 02:31:06.539 [0x7f6185db3800] DEBUG - Performing a scan with 'Plex Series Scanner' (language: en virtual: 0).
+Feb 01, 2018 02:31:06.539 [0x7f6185db3800] DEBUG -   * Scanning /data/tvshows
+Feb 01, 2018 02:31:06.539 [0x7f6185db3800] DEBUG -     * Scanning directory /data/tvshows (parent: no)
+Feb 01, 2018 02:31:06.543 [0x7f6185db3800] DEBUG - Adding subdirectory for scanner: /data/tvshows/Game of Thrones
+Feb 01, 2018 02:31:06.548 [0x7f6185db3800] DEBUG -     * Scanning directory /data/tvshows/Game of Thrones (parent: yes)
+Feb 01, 2018 02:31:06.550 [0x7f6185db3800] DEBUG - Removing 0 media items that were left.
+Feb 01, 2018 02:31:06.550 [0x7f6185db3800] DEBUG - Removing 0 directories that were left.
+Feb 01, 2018 02:31:06.550 [0x7f6185db3800] DEBUG - Updating directory '' (ID 1) to time 2018-02-01 02:25:18.
+Feb 01, 2018 02:31:06.551 [0x7f6185db3800] DEBUG - Updating directory 'Game of Thrones' (ID 2) to time 2018-02-01 02:24:45.
+Feb 01, 2018 02:31:06.553 [0x7f6185db3800] DEBUG - Refreshing section 2 of type: 2

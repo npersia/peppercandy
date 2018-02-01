@@ -1,0 +1,203 @@
+Feb 01, 2018 02:52:17.973 [0x7fd1dde67700] INFO - Plex Media Scanner v1.10.1.4602-f54242b6b - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Feb 01, 2018 02:52:17.973 [0x7fd1dde67700] INFO - Linux version: 4.13.16-202.fc26.x86_64 (#1 SMP Thu Nov 30 15:39:32 UTC 2017), language: en-US
+Feb 01, 2018 02:52:17.973 [0x7fd1dde67700] INFO - Processor Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+Feb 01, 2018 02:52:17.973 [0x7fd1dde67700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2
+Feb 01, 2018 02:52:17.973 [0x7fd1e935c800] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Feb 01, 2018 02:52:18.091 [0x7fd1e935c800] DEBUG - Scanning Series de TV using en(Plex Series Scanner) with 0 current media items and 1 section locations in the database...
+Feb 01, 2018 02:52:18.092 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1517452338
+Feb 01, 2018 02:52:18.096 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1517452338
+Feb 01, 2018 02:52:18.170 [0x7fd1e935c800] DEBUG - Performing a scan with 'Plex Series Scanner' (language: en virtual: 0).
+Feb 01, 2018 02:52:18.170 [0x7fd1e935c800] DEBUG -   * Scanning /data/tvshows
+Feb 01, 2018 02:52:18.170 [0x7fd1e935c800] DEBUG -     * Scanning directory /data/tvshows (parent: no)
+Feb 01, 2018 02:52:18.171 [0x7fd1e935c800] DEBUG - Adding subdirectory for scanner: /data/tvshows/Game of Thrones
+Feb 01, 2018 02:52:18.172 [0x7fd1e935c800] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
+Feb 01, 2018 02:52:18.172 [0x7fd1e935c800] DEBUG -     * Scanning directory /data/tvshows/Game of Thrones (parent: yes)
+Feb 01, 2018 02:52:18.172 [0x7fd1e935c800] DEBUG - Adding subdirectory for scanner: /data/tvshows/Game of Thrones/Season 07
+Feb 01, 2018 02:52:18.173 [0x7fd1e935c800] DEBUG - Skipping over directory 'Game of Thrones', as nothing has changed; removing 0 media items from map.
+Feb 01, 2018 02:52:18.174 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Game%20of%20Thrones
+Feb 01, 2018 02:52:18.174 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Game%20of%20Thrones
+Feb 01, 2018 02:52:18.175 [0x7fd1e935c800] DEBUG -     * Scanning directory /data/tvshows/Game of Thrones/Season 07 (parent: yes)
+Feb 01, 2018 02:52:18.180 [0x7fd1e935c800] DEBUG - Adding file for scanner: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:52:18.180 [0x7fd1e935c800] DEBUG - Adding file for scanner: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.es.srt
+Feb 01, 2018 02:52:18.182 [0x7fd1e935c800] DEBUG - Directory had 1 files, database had 0 files, can't skip.
+Feb 01, 2018 02:52:18.185 [0x7fd1e935c800] DEBUG -       * Scanning Game of Thrones Season 7 Episode 7
+Feb 01, 2018 02:52:18.186 [0x7fd1e935c800] DEBUG - Looking for path match for [/data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv]
+Feb 01, 2018 02:52:18.186 [0x7fd1e935c800] DEBUG - Skipping hash check, no size match for 817559561 bytes.
+Feb 01, 2018 02:52:18.186 [0x7fd1e935c800] DEBUG - No match for hash.
+Feb 01, 2018 02:52:18.187 [0x7fd1e935c800] DEBUG - Checking descendants of Game of Thrones
+Feb 01, 2018 02:52:18.188 [0x7fd1e935c800] DEBUG -  -> Searching down into Game of Thrones/Season 07
+Feb 01, 2018 02:52:18.188 [0x7fd1e935c800] DEBUG - Checking descendants of Game of Thrones/Season 07
+Feb 01, 2018 02:52:18.188 [0x7fd1e935c800] DEBUG - Creating show 'Game of Thrones'
+Feb 01, 2018 02:52:18.190 [0x7fd1e935c800] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.190 [0x7fd1e935c800] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.191 [0x7fd1e935c800] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.193 [0x7fd1e935c800] DEBUG - Added new metadata item (Game of Thrones) with ID 1
+Feb 01, 2018 02:52:18.193 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:18.193 [0x7fd1e935c800] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.193 [0x7fd1e935c800] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.195 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:18.195 [0x7fd1e935c800] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.196 [0x7fd1e935c800] DEBUG - Updating metadata item (save) (Game of Thrones) with ID 1
+Feb 01, 2018 02:52:18.198 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:18.199 [0x7fd1e935c800] DEBUG - Creating season 7 for show 'Game of Thrones'
+Feb 01, 2018 02:52:18.199 [0x7fd1e935c800] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.200 [0x7fd1e935c800] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.200 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:18.201 [0x7fd1e935c800] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.202 [0x7fd1e935c800] DEBUG - Added new metadata item () with ID 2
+Feb 01, 2018 02:52:18.202 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:18.202 [0x7fd1e935c800] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.203 [0x7fd1e935c800] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.203 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:18.204 [0x7fd1e935c800] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:18.204 [0x7fd1e935c800] DEBUG - Added new metadata item () with ID 3
+Feb 01, 2018 02:52:18.205 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:18.205 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:18.211 [0x7fd1e935c800] DEBUG - Removing 0 media items that were left.
+Feb 01, 2018 02:52:18.211 [0x7fd1e935c800] DEBUG - Removing 0 directories that were left.
+Feb 01, 2018 02:52:18.213 [0x7fd1e935c800] DEBUG - Updating directory 'Game of Thrones' (ID 2) to time 2018-02-01 02:50:20.
+Feb 01, 2018 02:52:18.214 [0x7fd1e935c800] DEBUG - Updating directory 'Game of Thrones/Season 07' (ID 3) to time 2018-02-01 02:50:36.
+Feb 01, 2018 02:52:18.216 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/create?librarySectionID=2&ids=1,2,3&types=2,3,4
+Feb 01, 2018 02:52:18.216 [0x7fd1e935c800] DEBUG - Refreshing section 2 of type: 2
+Feb 01, 2018 02:52:18.217 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/create?librarySectionID=2&ids=1,2,3&types=2,3,4
+Feb 01, 2018 02:52:18.217 [0x7fd1e935c800] DEBUG - The show 'Game of Thrones' needs refreshing, no match yet.
+Feb 01, 2018 02:52:18.218 [0x7fd1d9ee2700] DEBUG - Matching 'Game of Thrones' (ID 1) with agent com.plexapp.agents.thetvdb
+Feb 01, 2018 02:52:18.218 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1&metadataType=2&state=2&metadataState=matching
+Feb 01, 2018 02:52:18.220 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1&metadataType=2&state=2&metadataState=matching
+Feb 01, 2018 02:52:18.221 [0x7fd1d9ee2700] DEBUG - Most recent grandchild was episode 7
+Feb 01, 2018 02:52:18.221 [0x7fd1d9ee2700] DEBUG - Issuing search query: http://127.0.0.1:32400/system/agents/search?mediaType=2&id=1&identifier=com.plexapp.agents.thetvdb&duration=-1&episodic=1&filename=%252Fdata%252Ftvshows%252FGame%2520of%2520Thrones%252FSeason%252007%252FGame%2520of%2520Thrones%2520-%2520S07E07%2520-%2520The%2520Dragon%2520and%2520the%2520Wolf%252Emkv&lang=en&openSubtitlesHash=c0a29e1504e5d364&plexHash=ebdeafe5523089c85c7e3899cb5744faff5bf568&episode=7&episodic=1&season=7&show=Game%20of%20Thrones
+Feb 01, 2018 02:52:18.221 [0x7fd1d9ee2700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/system/agents/search?mediaType=2&id=1&identifier=com.plexapp.agents.thetvdb&duration=-1&episodic=1&filename=%252Fdata%252Ftvshows%252FGame%2520of%2520Thrones%252FSeason%252007%252FGame%2520of%2520Thrones%2520-%2520S07E07%2520-%2520The%2520Dragon%2520and%2520the%2520Wolf%252Emkv&lang=en&openSubtitlesHash=c0a29e1504e5d364&plexHash=ebdeafe5523089c85c7e3899cb5744faff5bf568&episode=7&episodic=1&season=7&show=Game%20of%20Thrones
+Feb 01, 2018 02:52:23.678 [0x7fd1d9ee2700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/system/agents/search?mediaType=2&id=1&identifier=com.plexapp.agents.thetvdb&duration=-1&episodic=1&filename=%252Fdata%252Ftvshows%252FGame%2520of%2520Thrones%252FSeason%252007%252FGame%2520of%2520Thrones%2520-%2520S07E07%2520-%2520The%2520Dragon%2520and%2520the%2520Wolf%252Emkv&lang=en&openSubtitlesHash=c0a29e1504e5d364&plexHash=ebdeafe5523089c85c7e3899cb5744faff5bf568&episode=7&episodic=1&season=7&show=Game%20of%20Thrones
+Feb 01, 2018 02:52:23.680 [0x7fd1d9ee2700] DEBUG - 100: Game of Thrones ()
+Feb 01, 2018 02:52:23.680 [0x7fd1d9ee2700] DEBUG -  * Score: 100 (Game of Thrones)
+Feb 01, 2018 02:52:23.680 [0x7fd1d9ee2700] DEBUG - Setting GUID for metadata item 1 (title: Game of Thrones) to com.plexapp.agents.thetvdb://121361?lang=en (thumb=)
+Feb 01, 2018 02:52:23.688 [0x7fd1d9ee2700] DEBUG - Migrating metadata settings from local://1 -> com.plexapp.agents.thetvdb://121361?lang=en
+Feb 01, 2018 02:52:23.688 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1&metadataType=2&state=3
+Feb 01, 2018 02:52:23.692 [0x7fd1d9ee2700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.692 [0x7fd1d9ee2700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.693 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1&metadataType=2&state=3
+Feb 01, 2018 02:52:23.705 [0x7fd1d9ee2700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.709 [0x7fd1d9ee2700] DEBUG - Updating metadata item (save) (Game of Thrones) with ID 1
+Feb 01, 2018 02:52:23.719 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:23.727 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:23.737 [0x7fd1d9ee2700] DEBUG - No match for item 1's GUID com.plexapp.agents.thetvdb://121361?lang=en, we're just changing its identity.
+Feb 01, 2018 02:52:23.740 [0x7fd1d9ee2700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.740 [0x7fd1d9ee2700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.745 [0x7fd1d9ee2700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.746 [0x7fd1d9ee2700] DEBUG - Updating metadata item (save) (Game of Thrones) with ID 1
+Feb 01, 2018 02:52:23.751 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:23.754 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:23.754 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1&metadataType=2&state=3&metadataState=queued
+Feb 01, 2018 02:52:23.755 [0x7fd1d9ee2700] DEBUG - Refreshing metadata for 'Game of Thrones' (agent: com.plexapp.agents.thetvdb)
+Feb 01, 2018 02:52:23.755 [0x7fd1d9ee2700] DEBUG - Refreshing GUID: 'com.plexapp.agents.thetvdb://121361?lang=en'
+Feb 01, 2018 02:52:23.755 [0x7fd1d9ee2700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/system/agents/update?mediaType=2&force=1&guid=com%2Eplexapp%2Eagents%2Ethetvdb%3A%2F%2F121361%3Flang%3Den&id=1
+Feb 01, 2018 02:52:23.756 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1&metadataType=2&state=3&metadataState=queued
+Feb 01, 2018 02:52:23.778 [0x7fd1d9ee2700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/system/agents/update?mediaType=2&force=1&guid=com%2Eplexapp%2Eagents%2Ethetvdb%3A%2F%2F121361%3Flang%3Den&id=1
+Feb 01, 2018 02:52:23.780 [0x7fd1d8fff700] DEBUG - MediaItem::PerformBackgroundAnalysis on 1
+Feb 01, 2018 02:52:23.782 [0x7fd1d8fff700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.782 [0x7fd1d8fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.785 [0x7fd1d8fff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:23.785 [0x7fd1d8fff700] DEBUG - Updating metadata item (save) () with ID 3
+Feb 01, 2018 02:52:23.786 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:23.788 [0x7fd1d8fff700] DEBUG - [ID 1] Media part analysis: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:52:23.788 [0x7fd1d8fff700] DEBUG - [MI] Opening input file: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:52:23.788 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:23.791 [0x7fd1d8fff700] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Feb 01, 2018 02:52:23.793 [0x7fd1d8fff700] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Feb 01, 2018 02:52:23.794 [0x7fd1d8fff700] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Feb 01, 2018 02:52:23.794 [0x7fd1d8fff700] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Feb 01, 2018 02:52:23.795 [0x7fd1d8fff700] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Feb 01, 2018 02:52:23.795 [0x7fd1d8fff700] INFO - CodecManager: obtaining decoder 'h264'
+Feb 01, 2018 02:52:23.796 [0x7fd1d8fff700] DEBUG - HTTP requesting GET https://plex.tv/api/codecs/h264_decoder?build=linux-ubuntu-x86_64&deviceId=7a18523d-f13c-47e7-82f5-45200104430b&oldestPreviousVersion=1%2E10%2E1%2E4602-f54242b6b&version=b077134-1269
+Feb 01, 2018 02:52:25.224 [0x7fd1d8fff700] DEBUG - HTTP 200 response from GET https://plex.tv/api/codecs/h264_decoder?build=linux-ubuntu-x86_64&deviceId=7a18523d-f13c-47e7-82f5-45200104430b&oldestPreviousVersion=1%2E10%2E1%2E4602-f54242b6b&version=b077134-1269
+Feb 01, 2018 02:52:25.227 [0x7fd1d8fff700] DEBUG - HTTP requesting GET https://downloads.plex.tv/codecs/b077134-1269/linux-ubuntu-x86_64/libh264_decoder.so
+Feb 01, 2018 02:52:27.227 [0x7fd1d8fff700] DEBUG - HTTP 200 response from GET https://downloads.plex.tv/codecs/b077134-1269/linux-ubuntu-x86_64/libh264_decoder.so
+Feb 01, 2018 02:52:27.253 [0x7fd1d8fff700] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 7047 bytes read:34105 seeks:2 nb_streams:3
+Feb 01, 2018 02:52:27.259 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.259 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.263 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.263 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.266 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.269 [0x7fd1d8fff700] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:52:27.288 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.289 [0x7fd1d8fff700] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:52:27.292 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.297 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:52:27.301 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:52:27.304 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.306 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.307 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:52:27.309 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:52:27.312 [0x7fd1d8fff700] DEBUG - [FFMPEG] - All info found
+Feb 01, 2018 02:52:27.314 [0x7fd1d8fff700] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 76341 bytes read:132409 seeks:2 frames:25
+Feb 01, 2018 02:52:27.316 [0x7fd1d8fff700] DEBUG - [MI]  * ebdeafe5523089c85c7e3899cb5744faff5bf568 [mkv h264/eac3] Duration: 4882171ms, 960x540 (1.777778) 23.976fps, bitrate=1339kbps, audio channels=2, optimizedForStreaming=0 (/data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv)
+Feb 01, 2018 02:52:27.317 [0x7fd1d8fff700] DEBUG - [MI] Importing 18 media chapters.
+Feb 01, 2018 02:52:27.317 [0x7fd1d8fff700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.317 [0x7fd1d8fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.319 [0x7fd1d8fff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.319 [0x7fd1d8fff700] DEBUG - Updating metadata item (save) () with ID 3
+Feb 01, 2018 02:52:27.321 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:27.321 [0x7fd1d8fff700] DEBUG - Doing expensive tags write for '' because something changed.
+Feb 01, 2018 02:52:27.322 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:27.336 [0x7fd1d8fff700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.336 [0x7fd1d8fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.338 [0x7fd1d8fff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.338 [0x7fd1d8fff700] DEBUG - Updating metadata item (save) () with ID 3
+Feb 01, 2018 02:52:27.339 [0x7fd1d8fff700] DEBUG - [MI] Closing input file: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:52:27.339 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:27.340 [0x7fd1d8fff700] DEBUG - [FFMPEG] - Statistics: 132409 bytes read, 2 seeks
+Feb 01, 2018 02:52:27.340 [0x7fd1d8fff700] DEBUG - Committing media stream changes for part 1
+Feb 01, 2018 02:52:27.341 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:27.342 [0x7fd1d8fff700] DEBUG - Updating media item 1, size=817559561, metadata_item_id=3
+Feb 01, 2018 02:52:27.342 [0x7fd1d8fff700] DEBUG - Updating part with ID=1 [/data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv]
+Feb 01, 2018 02:52:27.343 [0x7fd1d8fff700] DEBUG - [MI] Opening input file: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:52:27.343 [0x7fd1d8fff700] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Feb 01, 2018 02:52:27.344 [0x7fd1d8fff700] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Feb 01, 2018 02:52:27.344 [0x7fd1d8fff700] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Feb 01, 2018 02:52:27.344 [0x7fd1d8fff700] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Feb 01, 2018 02:52:27.345 [0x7fd1d8fff700] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Feb 01, 2018 02:52:27.345 [0x7fd1d8fff700] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 7047 bytes read:34105 seeks:2 nb_streams:3
+Feb 01, 2018 02:52:27.345 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.345 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.347 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.347 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.347 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.347 [0x7fd1d8fff700] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:52:27.352 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.353 [0x7fd1d8fff700] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:52:27.354 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.356 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:52:27.357 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:52:27.359 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.362 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.364 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:52:27.366 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:52:27.368 [0x7fd1d8fff700] DEBUG - [FFMPEG] - All info found
+Feb 01, 2018 02:52:27.369 [0x7fd1d8fff700] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 76341 bytes read:132409 seeks:2 frames:25
+Feb 01, 2018 02:52:27.369 [0x7fd1d8fff700] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/e/bdeafe5523089c85c7e3899cb5744faff5bf568.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Feb 01, 2018 02:52:27.369 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.369 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.370 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.370 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.371 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Feb 01, 2018 02:52:27.371 [0x7fd1d8fff700] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:52:27.389 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.390 [0x7fd1d8fff700] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:52:27.392 [0x7fd1d8fff700] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:52:27.432 [0x7fd1d8fff700] DEBUG - Loaded memory image of size 960x540.
+Feb 01, 2018 02:52:27.471 [0x7fd1d8fff700] DEBUG - [MI] Closing input file: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:52:27.472 [0x7fd1d8fff700] DEBUG - [FFMPEG] - Statistics: 395233 bytes read, 5 seeks
+Feb 01, 2018 02:52:27.473 [0x7fd1d8fff700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.473 [0x7fd1d8fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.474 [0x7fd1d8fff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:52:27.475 [0x7fd1d8fff700] DEBUG - Updating metadata item (save) () with ID 3
+Feb 01, 2018 02:52:27.475 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:27.476 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:52:27.476 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=analyzing
+Feb 01, 2018 02:52:27.477 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=analyzing
+Feb 01, 2018 02:52:27.478 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=thumbnailing
+Feb 01, 2018 02:52:27.481 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=thumbnailing
+Feb 01, 2018 02:52:27.482 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=idle
+Feb 01, 2018 02:52:27.483 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=idle
+Feb 01, 2018 02:52:27.484 [0x7fd1dc7ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=1
+Feb 01, 2018 02:52:27.485 [0x7fd1dc7ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=1

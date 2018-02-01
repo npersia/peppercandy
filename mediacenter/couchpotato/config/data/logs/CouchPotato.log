@@ -1,0 +1,326 @@
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded core: _core[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded core: clientscript[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded core: desktop[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded core: downloader[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded core: scheduler[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded core: updater[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: automation[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: browser[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: category[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: custom[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: dashboard[0m
+02-01 01:44:47 INFO [0m[tato.core._base.scheduler] Scheduling file.cleanup, interval: hours = 24, minutes = 0, seconds = 0[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: file[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: log[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: manage[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: profile[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: quality[0m
+02-01 01:44:47 INFO [0m[tato.core._base.scheduler] Scheduling movie.clean_releases, interval: hours = 12, minutes = 0, seconds = 0[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: release[0m
+02-01 01:44:47 INFO [0m[  couchpotato.core.loader] Loaded plugin: renamer[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded plugin: scanner[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded plugin: score[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded plugin: subtitle[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded plugin: trailer[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded plugin: userscript[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded plugin: wizard[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: blackhole[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: deluge[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: hadouken[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: nzbget[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: nzbvortex[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: pneumatic[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: putio[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: qbittorrent_[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: rtorrent_[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: sabnzbd[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: synology[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: transmission[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded downloaders: utorrent[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: androidpn[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: boxcar2[0m
+02-01 01:44:48 INFO [0m[tato.core._base.scheduler] Scheduling core.check_messages, interval: hours = 12, minutes = 0, seconds = 0[0m
+02-01 01:44:48 INFO [0m[tato.core._base.scheduler] Scheduling core.clean_messages, interval: hours = 0, minutes = 0, seconds = 15[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: core[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: discord[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: email_[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: emby[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: growl[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: homey[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: join[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: nmj[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: notifymyandroid[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: plex[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: prowl[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: pushalot[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: pushbullet[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: pushover[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: script[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: slack[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: synoindex[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: telegrambot[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: toasty[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: trakt[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: twitter[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: webhook[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: xbmc[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded notifications: xmpp_[0m
+02-01 01:44:48 INFO [0m[  couchpotato.core.loader] Loaded media__base_library: library[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media__base_matcher: matcher[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media__base_media: media[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media__base_search: search[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media__base: searcher[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie__base: _base[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie: charts[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie: library[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: bluray[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: crowdai[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: flixster[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: goodfilms[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: hummingbird[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: imdb[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: itunes[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: letterboxd[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation: popularmovies[0m
+02-01 01:44:49 INFO [0m[tato.core._base.scheduler] Scheduling updater.check, interval: hours = 24, minutes = 0, seconds = 0[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_automation_trakt: trakt[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_info: _modifier[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_info: couchpotatoapi[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_info: fanarttv[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_info: omdbapi[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_info: themoviedb[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_metadata: mediabrowser[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_metadata: ps3[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_metadata: wdtv[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_metadata: wmc[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_metadata: xbmc[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_nzb: binsearch[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_nzb: newznab[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_nzb: nzbclub[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_nzb: omgwtfnzbs[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: alpharatio[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: awesomehd[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: bithdtv[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: bitsoup[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: hd4free[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: hdbits[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: ilovetorrents[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: iptorrents[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: kickasstorrents[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: magnetdl[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: morethantv[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: passthepopcorn[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: rarbg[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: sceneaccess[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: scenetime[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: thepiratebay[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: torrentbytes[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: torrentday[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: torrentleech[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: torrentpotato[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: torrentshack[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: torrentz[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_torrent: yts[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_trailer: hdtrailers[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: allocine[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: appletrailers[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: criticker[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: filmcentrum[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: filmstarts[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: filmweb[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: flickchart[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: imdb[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: letterboxd[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: moviemeter[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: moviesio[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: reddit[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: rottentomatoes[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: tmdb[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: trakt[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie_providers_userscript: youteather[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie: searcher[0m
+02-01 01:44:49 INFO [0m[  couchpotato.core.loader] Loaded media_movie: suggestion[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: 2160p[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: BR-Disk[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: 1080p[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: 720p[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: BR-Rip[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: DVD-R[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: DVD-Rip[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: Screener[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: R5[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: TeleCine[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: TeleSync[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.quality] Creating profile: Cam[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.profile] Creating default profile: Best[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.profile] Creating default profile: HD[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.profile] Creating default profile: SD[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.profile] Creating default profile: Prefer 3D HD[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.profile] Creating default profile: 3D HD[0m
+02-01 01:44:50 INFO [0m[tato.core.plugins.profile] Creating default profile: UHD 4K[0m
+02-01 01:44:50 INFO [0m[       couchpotato.runner] Starting server on port 5050[0m
+02-01 01:44:50 INFO [0m[chpotato.core._base._core] Launching browser[0m
+02-01 01:44:50 INFO [0m[tato.core._base.scheduler] Scheduling updater.check, interval: hours = 24, minutes = 0, seconds = 0[0m
+02-01 01:44:50 INFO [0m[potato.core._base.updater] Checking for new version on github for CouchPotatoServer[0m
+02-01 01:44:50 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/configuration?api_key=xxx[0m
+02-01 01:44:50 INFO [0m[tato.core._base.scheduler] Scheduling "movie.searcher.all", cron: day = *, hour = None, minute = None[0m
+02-01 01:44:50 INFO [0m[tato.core._base.scheduler] Scheduling automation.add_movies, interval: hours = 12, minutes = 0, seconds = 0[0m
+02-01 01:44:50 INFO [0m[potato.core._base.updater] === VERSION git:(CouchPotato:CouchPotatoServer master) dae7327d (2017-12-10 22:03:04), using GitUpdater ===[0m
+02-01 01:44:50 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/messages/?last_check=0, data: [][0m
+02-01 01:44:51 INFO [0m[hpotato.core.plugins.base] Opening url: post https://api.couchpota.to/suggest/, data: ['ignore', 'movies'][0m
+02-01 01:44:52 INFO [0m[iders.info.couchpotatoapi] Found suggestions for 0 movies, 0 ignored[0m
+02-01 01:45:15 ERROR [31m[chpotato.core.plugins.log] API log: {'file': u'http://HOST/static/scripts/combined.base.min.js?1517008234', 'message': u"chrome 62: \nUncaught TypeError: Cannot read property 'split' of undefined", 'line': u'1157', 'page': u'http://HOST/wizard/', '_request': <couchpotato.api.ApiHandler object at 0x7f0e13ca7f90>}[0m
+02-01 01:45:16 ERROR [31m[chpotato.core.plugins.log] API log: {'file': u'http://HOST/static/scripts/combined.base.min.js?1517008234', 'message': u"chrome 62: \nUncaught TypeError: Cannot read property 'split' of undefined", 'line': u'1157', 'page': u'http://HOST/wizard/', '_request': <couchpotato.api.ApiHandler object at 0x7f0e13cc4490>}[0m
+02-01 01:47:24 INFO [0m[hpotato.core.plugins.base] Opening url: post https://api.couchpota.to/suggest/, data: ['ignore', 'movies'][0m
+02-01 01:47:25 INFO [0m[iders.info.couchpotatoapi] Found suggestions for 0 movies, 0 ignored[0m
+02-01 01:47:25 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/inVq3FRqcYIRl2la8iZikYYxFNR.jpg, data: [][0m
+02-01 01:47:25 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/weUSwMdQIa3NaXVzwUoIIcAi85d.jpg, data: [][0m
+02-01 01:47:25 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/hE24GYddaxB9MVZl1CaiI86M3kp.jpg, data: [][0m
+02-01 01:47:25 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/sM33SANp9z6rXW8Itn7NnG1GOEs.jpg, data: [][0m
+02-01 01:47:25 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/5aGhaIHYuQbqlHWvWYqMCnj40y2.jpg, data: [][0m
+02-01 01:47:25 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/cGOPbv9wA5gEejkUN892JrveARt.jpg, data: [][0m
+02-01 01:47:26 INFO [0m[hpotato.core.plugins.base] Opening url: get http://www.blu-ray.com/rss/newreleasesfeed.xml, data: [][0m
+02-01 01:47:26 INFO [0m[hpotato.core.plugins.base] Opening url: get http://www.imdb.com/boxoffice/, data: [][0m
+02-01 01:47:27 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt4500922/?ignore=1, data: [][0m
+02-01 01:47:27 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/professor+marston+and+the+wonder+women+2017/?limit=1, data: [][0m
+02-01 01:47:27 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=2017&t=professor+marston+and+the+wonder+women, data: [][0m
+02-01 01:47:27 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=professor+marston+and+the+wonder+women&year=2017, data: [][0m
+02-01 01:47:27 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt4500922/?ignore=1, data: [][0m
+02-01 01:47:27 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt4500922, data: [][0m
+02-01 01:47:27 INFO [0m[ie.providers.info.omdbapi] Found: Professor Marston and the Wonder Women (2017)[0m
+02-01 01:47:27 INFO [0m[ie.providers.info.omdbapi] Found: Maze Runner: The Death Cure (2018)[0m
+02-01 01:47:27 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt4500922?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:28 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt6133130/?ignore=1, data: [][0m
+02-01 01:47:28 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt2283362/?ignore=1, data: [][0m
+02-01 01:47:28 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/boo+2%21+a+madea+halloween+2017/?limit=1, data: [][0m
+02-01 01:47:28 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=2017&t=boo+2+a+madea+halloween, data: [][0m
+02-01 01:47:29 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt2283362/?ignore=1, data: [][0m
+02-01 01:47:29 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt2283362, data: [][0m
+02-01 01:47:29 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=boo+2+a+madea+halloween&year=2017, data: [][0m
+02-01 01:47:29 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt6217804/?ignore=1, data: [][0m
+02-01 01:47:29 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt2283362?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:29 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/victoria%3A+the+complete+second+season+2017/?limit=1, data: [][0m
+02-01 01:47:29 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=2017&t=victoria+the+complete+second+season, data: [][0m
+02-01 01:47:29 INFO [0m[ie.providers.info.omdbapi] Found: Jumanji: Welcome to the Jungle (2017)[0m
+02-01 01:47:29 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt5478478/?ignore=1, data: [][0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=victoria+the+complete+second+season&year=2017, data: [][0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt5478478/?ignore=1, data: [][0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt5478478, data: [][0m
+02-01 01:47:30 INFO [0m[ie.providers.info.omdbapi] Found: Hostiles (2017)[0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/last+flag+flying+2017/?limit=1, data: [][0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=2017&t=last+flag+flying, data: [][0m
+02-01 01:47:30 INFO [0m[ie.providers.info.omdbapi] Found: Last Flag Flying (2017)[0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt5478478?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt1485796/?ignore=1, data: [][0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt1485796/?ignore=1, data: [][0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt1485796, data: [][0m
+02-01 01:47:30 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=last+flag+flying&year=2017, data: [][0m
+02-01 01:47:31 INFO [0m[ie.providers.info.omdbapi] Found: The Greatest Showman (2017)[0m
+02-01 01:47:31 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt6018306/?ignore=1, data: [][0m
+02-01 01:47:31 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt1485796?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:31 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/napping+princess%3A+ancien+and+the+magic+tablet+2017/?limit=1, data: [][0m
+02-01 01:47:31 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=2017&t=napping+princess+ancien+and+the+magic+tablet, data: [][0m
+02-01 01:47:31 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt6294822/?ignore=1, data: [][0m
+02-01 01:47:31 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=napping+princess+ancien+and+the+magic+tablet&year=2017, data: [][0m
+02-01 01:47:31 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt6294822/?ignore=1, data: [][0m
+02-01 01:47:31 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt6294822, data: [][0m
+02-01 01:47:31 INFO [0m[ie.providers.info.omdbapi] Found: The Post (2017)[0m
+02-01 01:47:32 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt6294822?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:32 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt1413492/?ignore=1, data: [][0m
+02-01 01:47:32 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/428288?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:32 INFO [0m[providers.info.themoviedb] Found: [][0m
+02-01 01:47:32 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt5731132/?ignore=1, data: [][0m
+02-01 01:47:32 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt1413492/?ignore=1, data: [][0m
+02-01 01:47:32 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt1413492, data: [][0m
+02-01 01:47:32 INFO [0m[ie.providers.info.omdbapi] Found: 12 Strong (2018)[0m
+02-01 01:47:32 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt1413492?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=1990&t=class+of+1999, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/class+of+1999+1990/?limit=1, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt1259528/?ignore=1, data: [][0m
+02-01 01:47:33 INFO [0m[ie.providers.info.omdbapi] Found: Class of 1999 (1990)[0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=class+of+1999&year=1990, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt0099277/?ignore=1, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt1259528/?ignore=1, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt1259528, data: [][0m
+02-01 01:47:33 INFO [0m[ie.providers.info.omdbapi] Found: Den of Thieves (2018)[0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt1259528?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=1964&t=the+pink+panther+cartoon+collection+volume+1, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/the+pink+panther+cartoon+collection%3A+volume+1+1964/?limit=1, data: [][0m
+02-01 01:47:33 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt5580390/?ignore=1, data: [][0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt5580390, data: [][0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt5580390/?ignore=1, data: [][0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=the+pink+panther+cartoon+collection+volume+1&year=1964, data: [][0m
+02-01 01:47:34 INFO [0m[ie.providers.info.omdbapi] Found: The Shape of Water (2017)[0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/westfront+1918+1930/?limit=1, data: [][0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=1930&t=westfront+1918, data: [][0m
+02-01 01:47:34 INFO [0m[ie.providers.info.omdbapi] Found: Westfront 1918 (1930)[0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt5580390?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt4468740/?ignore=1, data: [][0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=westfront+1918&year=1930, data: [][0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt4468740/?ignore=1, data: [][0m
+02-01 01:47:34 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt4468740, data: [][0m
+02-01 01:47:35 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt4468740?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:35 INFO [0m[ie.providers.info.omdbapi] Found: Paddington 2 (2017)[0m
+02-01 01:47:35 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt5935704/?ignore=1, data: [][0m
+02-01 01:47:35 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/80705?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:35 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/info/tt5935704/?ignore=1, data: [][0m
+02-01 01:47:35 INFO [0m[providers.info.themoviedb] Found: [][0m
+02-01 01:47:35 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&i=tt5935704, data: [][0m
+02-01 01:47:35 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt0021542/?ignore=1, data: [][0m
+02-01 01:47:36 INFO [0m[ie.providers.info.omdbapi] Found: Padmavati (2017)[0m
+02-01 01:47:36 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/tt5935704?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:36 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/gothic+1986/?limit=1, data: [][0m
+02-01 01:47:36 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=1986&t=gothic, data: [][0m
+02-01 01:47:36 INFO [0m[ie.providers.info.omdbapi] Found: Gothic (1986)[0m
+02-01 01:47:36 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=gothic&year=1986, data: [][0m
+02-01 01:47:36 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/33516?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:37 INFO [0m[providers.info.themoviedb] Found: [][0m
+02-01 01:47:37 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt0091142/?ignore=1, data: [][0m
+02-01 01:47:37 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/loving+vincent+2017/?limit=1, data: [][0m
+02-01 01:47:37 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=loving+vincent&year=2017, data: [][0m
+02-01 01:47:37 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=2017&t=loving+vincent, data: [][0m
+02-01 01:47:37 INFO [0m[ie.providers.info.omdbapi] Found: Loving Vincent (2017)[0m
+02-01 01:47:38 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/339877?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:38 INFO [0m[providers.info.themoviedb] Found: [][0m
+02-01 01:47:38 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt3262342/?ignore=1, data: [][0m
+02-01 01:47:38 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/jam%C3%B3n+jam%C3%B3n+1992/?limit=1, data: [][0m
+02-01 01:47:38 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=jamon+jamon&year=1992, data: [][0m
+02-01 01:47:38 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=1992&t=jamon+jamon, data: [][0m
+02-01 01:47:38 INFO [0m[ie.providers.info.omdbapi] Found: Jamón, Jamón (1992)[0m
+02-01 01:47:39 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/movie/4507?api_key=xxx&append_to_response=alternative_titles&language=en, data: [][0m
+02-01 01:47:39 INFO [0m[providers.info.themoviedb] Found: [][0m
+02-01 01:47:39 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt0104545/?ignore=1, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/search/legend+of+the+naga+pearls+2017/?limit=1, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.themoviedb.org/3/search/movie?api_key=xxx&search_type=phrase&query=legend+of+the+naga+pearls&year=2017, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://www.omdbapi.com/?apikey=xxx&type=movie&y=2017&t=legend+of+the+naga+pearls, data: [][0m
+02-01 01:47:40 INFO [0m[ie.providers.info.omdbapi] Found: Legend of the Naga Pearls (2017)[0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://api.couchpota.to/ismovie/tt6288650/?ignore=1, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/uj4BIueaGjPUomL7g3bpal4b8yw.jpg, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/5nvP4etJ8ecQv8qZM08dK4BAzdK.jpg, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/pizynKUzJ9YucGff1O1MYisY1WM.jpg, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/9d27l5z9B2zyqoEtKkieBcbclMG.jpg, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/c2KF7Nb6tbLWR7FLh0FXYl3AqAE.jpg, data: [][0m
+02-01 01:47:40 INFO [0m[hpotato.core.plugins.base] Opening url: get https://images-na.ssl-images-amazon.com/images/M/MV5BNjRkNzg5NmMtNGJlOC00NTUxLWIwYmQtMTM3NWFhMjIyNjViXkEyXkFqcGdeQXVyMTg2NTc4MzA@._V1_SX300.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/lsivD3aJXU3cfuotO1I1JIvCsKm.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/qlrhwUDe7YOZujAYanK6ij2vbY5.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/wAucj0pm9eGaC8nx01pbdyvK4VS.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/1nPxjVkJiodmIHk0ycQOq1Mf67L.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/7GgZ6DGezkh3szFdvskH5XD4V0t.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/bXrZ5iHBEjH7WMidbUDQ0U2xbmr.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/rqoezyB51GfhiloOB5ZErg5HXas.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/dfhztJRiElqmYW4kpvjYe1gENsD.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/qyRwj5VvuTRdJ76o2grP93grNxt.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/j18021qCeRi3yUBtqd2UFj1c0RQ.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/onnxOne4EVdpqtuTpEBtD1I8tdJ.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/iLYLADGA5oKGM92Ns1j9CDgk3iI.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/gnXaUxdKD2t1B74cutWA5rjBLgD.jpg, data: [][0m
+02-01 01:47:41 INFO [0m[hpotato.core.plugins.base] Opening url: get https://image.tmdb.org/t/p/w154/qOaBEB2VHaelTbtftcxsZf7SlqL.jpg, data: [][0m
+02-01 01:53:17 INFO [0m[tato.core._base.scheduler] Scheduling renamer.check_snatched, interval: hours = 0, minutes = 1, seconds = 0[0m
+02-01 01:53:17 INFO [0m[tato.core._base.scheduler] Scheduling renamer.check_snatched_forced, interval: hours = 2, minutes = 0, seconds = 0[0m
+02-01 01:53:25 ERROR [31m[tato.core.plugins.browser] Failed getting directory "/root" : Traceback (most recent call last):
+  File "/app/couchpotato/couchpotato/core/plugins/browser.py", line 96, in view
+    dirs = self.getDirectories(path = path, show_hidden = show_hidden)
+  File "/app/couchpotato/couchpotato/core/plugins/browser.py", line 60, in getDirectories
+    for f in os.listdir(path):
+OSError: [Errno 13] Permission denied: '/root'
+[0m

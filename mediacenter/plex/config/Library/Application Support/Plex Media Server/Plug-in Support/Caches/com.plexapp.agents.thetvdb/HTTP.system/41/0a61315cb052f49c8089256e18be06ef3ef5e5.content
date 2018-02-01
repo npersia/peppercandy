@@ -1,0 +1,48 @@
+{
+  "data": {
+    "id": 6275142,
+    "airedSeason": 7,
+    "airedSeasonID": 703353,
+    "airedEpisodeNumber": 7,
+    "episodeName": "The Dragon and the Wolf",
+    "firstAired": "2017-08-27",
+    "guestStars": [
+      "Wilf Scolding",
+      "Aisling Franciosi"
+    ],
+    "director": "Jeremy Podeswa",
+    "directors": [
+      "Jeremy Podeswa"
+    ],
+    "writers": [
+      "David Benioff",
+      "D. B. Weiss"
+    ],
+    "overview": "House Lannister, Stark und Targaryen meet at the Dragonpit and negotiate the future of Westeros  ...",
+    "language": {
+      "episodeName": "en",
+      "overview": "en"
+    },
+    "productionCode": "",
+    "showUrl": "",
+    "lastUpdated": 1516659014,
+    "dvdDiscid": "",
+    "dvdSeason": 7,
+    "dvdEpisodeNumber": 7,
+    "dvdChapter": null,
+    "absoluteNumber": 67,
+    "filename": "episodes/121361/6275142.jpg",
+    "seriesId": 121361,
+    "lastUpdatedBy": 410201,
+    "airsAfterSeason": null,
+    "airsBeforeSeason": null,
+    "airsBeforeEpisode": null,
+    "thumbAuthor": 235,
+    "thumbAdded": "2017-08-29 12:53:17",
+    "thumbWidth": "400",
+    "thumbHeight": "225",
+    "imdbId": "tt5775874",
+    "siteRating": 8.6,
+    "siteRatingCount": 41
+  }
+}

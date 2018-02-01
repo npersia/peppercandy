@@ -1,0 +1,5 @@
+Feb 01, 2018 02:51:22.549 [0x7f3904267700] INFO - Plex Media Scanner v1.10.1.4602-f54242b6b - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Feb 01, 2018 02:51:22.549 [0x7f3904267700] INFO - Linux version: 4.13.16-202.fc26.x86_64 (#1 SMP Thu Nov 30 15:39:32 UTC 2017), language: en-US
+Feb 01, 2018 02:51:22.549 [0x7f3904267700] INFO - Processor Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+Feb 01, 2018 02:51:22.549 [0x7f3904267700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --section 2 --log-file-suffix  Analysis
+Feb 01, 2018 02:51:22.549 [0x7f390f827800] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1

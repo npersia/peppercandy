@@ -1,0 +1,129 @@
+{
+  "links": {
+    "first": 1,
+    "last": 2,
+    "next": null,
+    "prev": 1
+  },
+  "data": [
+    {
+      "absoluteNumber": null,
+      "airedEpisodeNumber": 34,
+      "airedSeason": 0,
+      "airedSeasonID": 137481,
+      "dvdEpisodeNumber": null,
+      "dvdSeason": null,
+      "episodeName": "Game Revealed: Season 7 Episode 2",
+      "firstAired": "2017-09-07",
+      "id": 6313071,
+      "language": {
+        "episodeName": "en",
+        "overview": "en"
+      },
+      "lastUpdated": 1505332995,
+      "overview": "Go inside the brutal battle between Greyjoy fleets with this clip from the latest episode of the 7-part behind-the-scenes series, The Game Revealed. "
+    },
+    {
+      "absoluteNumber": null,
+      "airedEpisodeNumber": 35,
+      "airedSeason": 0,
+      "airedSeasonID": 137481,
+      "dvdEpisodeNumber": null,
+      "dvdSeason": null,
+      "episodeName": "Game Revealed: Season 7 Episode 3",
+      "firstAired": "2017-09-11",
+      "id": 6313073,
+      "language": {
+        "episodeName": "en",
+        "overview": ""
+      },
+      "lastUpdated": 1505332986,
+      "overview": null
+    },
+    {
+      "absoluteNumber": null,
+      "airedEpisodeNumber": 36,
+      "airedSeason": 0,
+      "airedSeasonID": 137481,
+      "dvdEpisodeNumber": null,
+      "dvdSeason": null,
+      "episodeName": "Conquest \u0026 Rebellion: An Animated History of the Seven Kingdoms / Valyria’s Last Scion: House Targaryen",
+      "firstAired": "2017-09-14",
+      "id": 6316967,
+      "language": {
+        "episodeName": "en",
+        "overview": ""
+      },
+      "lastUpdated": 1512626381,
+      "overview": null
+    },
+    {
+      "absoluteNumber": null,
+      "airedEpisodeNumber": 37,
+      "airedSeason": 0,
+      "airedSeasonID": 137481,
+      "dvdEpisodeNumber": null,
+      "dvdSeason": null,
+      "episodeName": "Game Revealed: Season 7 Episode 4",
+      "firstAired": "2017-09-18",
+      "id": 6336793,
+      "language": {
+        "episodeName": "en",
+        "overview": ""
+      },
+      "lastUpdated": 1506611858,
+      "overview": null
+    },
+    {
+      "absoluteNumber": null,
+      "airedEpisodeNumber": 38,
+      "airedSeason": 0,
+      "airedSeasonID": 137481,
+      "dvdEpisodeNumber": null,
+      "dvdSeason": null,
+      "episodeName": "Game Revealed: Season 7 Episode 5",
+      "firstAired": "2017-09-25",
+      "id": 6336794,
+      "language": {
+        "episodeName": "en",
+        "overview": ""
+      },
+      "lastUpdated": 1506611884,
+      "overview": null
+    },
+    {
+      "absoluteNumber": null,
+      "airedEpisodeNumber": 39,
+      "airedSeason": 0,
+      "airedSeasonID": 137481,
+      "dvdEpisodeNumber": null,
+      "dvdSeason": null,
+      "episodeName": "Game Revealed: Season 7 Episode 6",
+      "firstAired": "2017-10-02",
+      "id": 6376290,
+      "language": {
+        "episodeName": "en",
+        "overview": ""
+      },
+      "lastUpdated": 1508692583,
+      "overview": null
+    },
+    {
+      "absoluteNumber": null,
+      "airedEpisodeNumber": 40,
+      "airedSeason": 0,
+      "airedSeasonID": 137481,
+      "dvdEpisodeNumber": null,
+      "dvdSeason": null,
+      "episodeName": "Game Revealed: Season 7 Episode 7",
+      "firstAired": "2017-10-09",
+      "id": 6376291,
+      "language": {
+        "episodeName": "en",
+        "overview": ""
+      },
+      "lastUpdated": 1508692631,
+      "overview": null
+    }
+  ]
+}

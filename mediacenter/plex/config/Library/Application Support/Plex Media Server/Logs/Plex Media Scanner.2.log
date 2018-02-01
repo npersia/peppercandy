@@ -1,0 +1,15 @@
+Feb 01, 2018 02:30:46.620 [0x7f703e3ff700] INFO - Plex Media Scanner v1.10.1.4602-f54242b6b - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Feb 01, 2018 02:30:46.621 [0x7f703e3ff700] INFO - Linux version: 4.13.16-202.fc26.x86_64 (#1 SMP Thu Nov 30 15:39:32 UTC 2017), language: en-US
+Feb 01, 2018 02:30:46.621 [0x7f703e3ff700] INFO - Processor Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+Feb 01, 2018 02:30:46.621 [0x7f703e3ff700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 1
+Feb 01, 2018 02:30:46.621 [0x7f7049ac7800] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Feb 01, 2018 02:30:46.754 [0x7f7049ac7800] DEBUG - Scanning Películas using en(Plex Movie Scanner) with 0 current media items and 1 section locations in the database...
+Feb 01, 2018 02:30:46.754 [0x7f703cbff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=1&sinceTime=1517451046
+Feb 01, 2018 02:30:46.758 [0x7f703cbff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=1&sinceTime=1517451046
+Feb 01, 2018 02:30:46.843 [0x7f7049ac7800] DEBUG - Performing a scan with 'Plex Movie Scanner' (language: en virtual: 0).
+Feb 01, 2018 02:30:46.843 [0x7f7049ac7800] DEBUG -   * Scanning /data/movies
+Feb 01, 2018 02:30:46.843 [0x7f7049ac7800] DEBUG -   * Marking media not available in /data/movies
+Feb 01, 2018 02:30:46.843 [0x7f7049ac7800] DEBUG -   * Taking 0 items out of the map (which has 0 items) for being unavailable.
+Feb 01, 2018 02:30:46.844 [0x7f7049ac7800] DEBUG -   * Taking 0 directories out of the map (which has 0 dirs) for being unavailable.
+Feb 01, 2018 02:30:46.848 [0x7f7049ac7800] DEBUG - Removing 0 media items that were left.
+Feb 01, 2018 02:30:46.848 [0x7f7049ac7800] DEBUG - Removing 0 directories that were left.

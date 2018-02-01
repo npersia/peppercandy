@@ -1,0 +1,103 @@
+version: '3'
+
+services:
+
+      
+  transmission:
+    image: linuxserver/transmission
+    stdin_open: true
+    tty: true
+    ports:
+      - "9091:9091"
+      - "51413:51413"
+      - "51413:51413/udp"
+    volumes:
+      - "./transmission/config:/config"
+      - "./media/downloads:/downloads"
+      - "./transmission/watch:/watch"
+    environment:
+      - PGI=0
+      - PGU=0
+      - TZ=London
+    networks:
+      net1:
+
+
+
+
+  organizr:
+    image: lsiocommunity/organizr
+    stdin_open: true
+    tty: true
+    ports:
+      - "8080:80"
+    volumes:
+      - "./organizr/config:/config"
+    environment:
+      - PGI=0
+      - PGU=0
+    networks:
+      net1:
+
+
+
+
+  plex:
+    image: linuxserver/plex
+    stdin_open: true
+    tty: true
+    network_mode: "host"
+    volumes:
+      - "./plex/config:/config"
+      - "./media/tv:/data/tvshows"
+      - "./media/movies:/data/movies" 
+      - "./plex/transcode:/transcode"
+    environment:
+      - PGI=0
+      - PGU=0
+      - TZ=London
+
+
+
+  couchpotato:
+    image: linuxserver/couchpotato
+    stdin_open: true
+    tty: true
+    ports:
+      - "5050:5050"
+    volumes:
+      - "./couchpotato/config:/config"
+      - "./media/downloads:/downloads"
+      - "./media/movies:/movies"
+    environment:
+      - PGI=0
+      - PGU=0
+      - TZ=London
+    networks:
+      net1:
+
+
+
+
+  sickrage:
+    image: linuxserver/sickrage
+    stdin_open: true
+    tty: true
+    ports:
+      - "8081:8081"
+    volumes:
+      - "./sickrage/config:/config"
+      - "./media/tv:/tv"
+      - "./media/downloads:/downloads"
+    environment:
+      - PGI=0
+      - PGU=0
+      - TZ=London
+    networks:
+      net1:
+
+              
+              
+              
+networks:
+  net1:

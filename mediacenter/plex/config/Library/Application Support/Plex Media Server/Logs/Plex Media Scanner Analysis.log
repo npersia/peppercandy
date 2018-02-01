@@ -1,0 +1,156 @@
+Feb 01, 2018 02:58:35.152 [0x7f401d7ff700] INFO - Plex Media Scanner v1.10.1.4602-f54242b6b - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Feb 01, 2018 02:58:35.152 [0x7f401d7ff700] INFO - Linux version: 4.13.16-202.fc26.x86_64 (#1 SMP Thu Nov 30 15:39:32 UTC 2017), language: en-US
+Feb 01, 2018 02:58:35.152 [0x7f401d7ff700] INFO - Processor Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+Feb 01, 2018 02:58:35.152 [0x7f401d7ff700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 3
+Feb 01, 2018 02:58:35.155 [0x7f4028eab800] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Feb 01, 2018 02:58:35.255 [0x7f4028eab800] DEBUG - Analyzing media parts for item 3 (The Dragon and the Wolf): 1,5
+Feb 01, 2018 02:58:35.256 [0x7f4028eab800] DEBUG - [ID 1] Media part analysis: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:58:35.256 [0x7f4028eab800] DEBUG - [MI] Opening input file: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:58:35.260 [0x7f4028eab800] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Feb 01, 2018 02:58:35.262 [0x7f4028eab800] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Feb 01, 2018 02:58:35.262 [0x7f4028eab800] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Feb 01, 2018 02:58:35.262 [0x7f4028eab800] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Feb 01, 2018 02:58:35.262 [0x7f4028eab800] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Feb 01, 2018 02:58:35.262 [0x7f4028eab800] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 7047 bytes read:34105 seeks:2 nb_streams:3
+Feb 01, 2018 02:58:35.264 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.264 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.265 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.265 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.266 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.266 [0x7f4028eab800] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:58:35.271 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.272 [0x7f4028eab800] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:58:35.273 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.274 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:58:35.277 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:58:35.279 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.281 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.283 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:58:35.285 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Feb 01, 2018 02:58:35.287 [0x7f4028eab800] DEBUG - [FFMPEG] - All info found
+Feb 01, 2018 02:58:35.288 [0x7f4028eab800] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 76341 bytes read:132409 seeks:2 frames:25
+Feb 01, 2018 02:58:35.289 [0x7f4028eab800] DEBUG - [MI]  * ebdeafe5523089c85c7e3899cb5744faff5bf568 [mkv h264/eac3] Duration: 4882171ms, 960x540 (1.777778) 23.976fps, bitrate=1339kbps, audio channels=2, optimizedForStreaming=0 (/data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv)
+Feb 01, 2018 02:58:35.290 [0x7f4028eab800] DEBUG - [MI] Importing 18 media chapters.
+Feb 01, 2018 02:58:35.292 [0x7f4028eab800] DEBUG - [MI] Closing input file: /data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv
+Feb 01, 2018 02:58:35.292 [0x7f4028eab800] DEBUG - [FFMPEG] - Statistics: 132409 bytes read, 2 seeks
+Feb 01, 2018 02:58:35.292 [0x7f4028eab800] DEBUG - Streams didn't change in analysis, not saving.
+Feb 01, 2018 02:58:35.293 [0x7f4028eab800] DEBUG - Updating media item 1, size=817559561, metadata_item_id=3
+Feb 01, 2018 02:58:35.293 [0x7f4028eab800] DEBUG - Updating part with ID=1 [/data/tvshows/Game of Thrones/Season 07/Game of Thrones - S07E07 - The Dragon and the Wolf.mkv]
+Feb 01, 2018 02:58:35.298 [0x7f4028eab800] DEBUG - [ID 5] Media part analysis: /data/tvshows/Game of Thrones/Season 07/Plex Versions/Original Quality/Game of Thrones/S07E07.mp4
+Feb 01, 2018 02:58:35.299 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=analyzing
+Feb 01, 2018 02:58:35.299 [0x7f4028eab800] DEBUG - [MI] Opening input file: /data/tvshows/Game of Thrones/Season 07/Plex Versions/Original Quality/Game of Thrones/S07E07.mp4
+Feb 01, 2018 02:58:35.299 [0x7f4028eab800] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Feb 01, 2018 02:58:35.299 [0x7f4028eab800] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Feb 01, 2018 02:58:35.300 [0x7f4028eab800] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Feb 01, 2018 02:58:35.300 [0x7f4028eab800] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Feb 01, 2018 02:58:35.302 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=analyzing
+Feb 01, 2018 02:58:35.303 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=thumbnailing
+Feb 01, 2018 02:58:35.304 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=thumbnailing
+Feb 01, 2018 02:58:35.305 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=idle
+Feb 01, 2018 02:58:35.306 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=idle
+Feb 01, 2018 02:58:35.320 [0x7f4028eab800] DEBUG - [FFMPEG] - Offset DTS by ctts[0].duration: 1328
+Feb 01, 2018 02:58:35.320 [0x7f4028eab800] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1328, duration: 78114688
+Feb 01, 2018 02:58:35.328 [0x7f4028eab800] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Feb 01, 2018 02:58:35.345 [0x7f4028eab800] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: -1, duration: 240
+Feb 01, 2018 02:58:35.346 [0x7f4028eab800] DEBUG - [FFMPEG] - Processing st: 1, edit list 1 - media time: 0, duration: 234343968
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 23.916667 0.004893
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 23.916667 0.004893
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 24.000000 0.000873
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 24.083333 0.016189
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 48.000000 0.003494
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 23.976024 0.000049
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 47.952048 0.000195
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3827461 bytes read:3850639 seeks:0 nb_streams:2
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.354 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.355 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.355 [0x7f4028eab800] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:58:35.360 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.360 [0x7f4028eab800] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:58:35.361 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.363 [0x7f4028eab800] DEBUG - [FFMPEG] - All info found
+Feb 01, 2018 02:58:35.363 [0x7f4028eab800] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3867967 bytes read:3883407 seeks:0 frames:4
+Feb 01, 2018 02:58:35.363 [0x7f4028eab800] DEBUG - [MI] Opening /data/tvshows/Game of Thrones/Season 07/Plex Versions/Original Quality/Game of Thrones/S07E07.mp4 for MP4 atom parsing
+Feb 01, 2018 02:58:35.363 [0x7f4028eab800] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Feb 01, 2018 02:58:35.363 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found moov atom of size 3827413 at offset 32
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found trak atom of size 2316872 at offset 148
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found trak atom of size 1510327 at offset 2317020
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found mdia atom of size 2316736 at offset 284
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found minf atom of size 2316651 at offset 369
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found stbl atom of size 2316587 at offset 433
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found mdia atom of size 1510179 at offset 2317168
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found minf atom of size 1510094 at offset 2317253
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - Mp4AtomParser: Found stbl atom of size 1510034 at offset 2317313
+Feb 01, 2018 02:58:35.365 [0x7f4028eab800] DEBUG - [MI]  * 258bf368deb7dfa10f06ee864a9c537eb99adfd6 [mp4 h264/aac] Duration: 4882168ms, 960x540 (1.777778) 23.976fps, bitrate=1375kbps, audio channels=2, optimizedForStreaming=1 (/data/tvshows/Game of Thrones/Season 07/Plex Versions/Original Quality/Game of Thrones/S07E07.mp4)
+Feb 01, 2018 02:58:35.366 [0x7f4028eab800] DEBUG - [MI] Chapters had generic titles, clearing.
+Feb 01, 2018 02:58:35.368 [0x7f4028eab800] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.368 [0x7f4028eab800] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.369 [0x7f4028eab800] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.369 [0x7f4028eab800] DEBUG - Updating metadata item (save) (The Dragon and the Wolf) with ID 3
+Feb 01, 2018 02:58:35.371 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:58:35.376 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:58:35.378 [0x7f4028eab800] DEBUG - Doing expensive tags write for 'The Dragon and the Wolf' because something changed.
+Feb 01, 2018 02:58:35.380 [0x7f4028eab800] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.380 [0x7f4028eab800] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.382 [0x7f4028eab800] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.383 [0x7f4028eab800] DEBUG - Updating metadata item (save) (The Dragon and the Wolf) with ID 3
+Feb 01, 2018 02:58:35.385 [0x7f4028eab800] DEBUG - [MI] Closing input file: /data/tvshows/Game of Thrones/Season 07/Plex Versions/Original Quality/Game of Thrones/S07E07.mp4
+Feb 01, 2018 02:58:35.385 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:58:35.386 [0x7f4028eab800] DEBUG - [FFMPEG] - Statistics: 3883407 bytes read, 0 seeks
+Feb 01, 2018 02:58:35.387 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:58:35.387 [0x7f4028eab800] DEBUG - Committing media stream changes for part 5
+Feb 01, 2018 02:58:35.388 [0x7f4028eab800] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.389 [0x7f4028eab800] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.390 [0x7f4028eab800] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.392 [0x7f4028eab800] DEBUG - Updating media item 5, size=839616028, metadata_item_id=3
+Feb 01, 2018 02:58:35.393 [0x7f4028eab800] DEBUG - Updating part with ID=5 [/data/tvshows/Game of Thrones/Season 07/Plex Versions/Original Quality/Game of Thrones/S07E07.mp4]
+Feb 01, 2018 02:58:35.394 [0x7f4028eab800] DEBUG - [MI] Opening input file: /data/tvshows/Game of Thrones/Season 07/Plex Versions/Original Quality/Game of Thrones/S07E07.mp4
+Feb 01, 2018 02:58:35.394 [0x7f4028eab800] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Feb 01, 2018 02:58:35.394 [0x7f4028eab800] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Feb 01, 2018 02:58:35.394 [0x7f4028eab800] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Feb 01, 2018 02:58:35.394 [0x7f4028eab800] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Feb 01, 2018 02:58:35.407 [0x7f4028eab800] DEBUG - [FFMPEG] - Offset DTS by ctts[0].duration: 1328
+Feb 01, 2018 02:58:35.407 [0x7f4028eab800] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1328, duration: 78114688
+Feb 01, 2018 02:58:35.413 [0x7f4028eab800] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Feb 01, 2018 02:58:35.422 [0x7f4028eab800] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: -1, duration: 240
+Feb 01, 2018 02:58:35.422 [0x7f4028eab800] DEBUG - [FFMPEG] - Processing st: 1, edit list 1 - media time: 0, duration: 234343968
+Feb 01, 2018 02:58:35.431 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 23.916667 0.004893
+Feb 01, 2018 02:58:35.431 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 23.916667 0.004893
+Feb 01, 2018 02:58:35.431 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 24.000000 0.000873
+Feb 01, 2018 02:58:35.431 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 24.083333 0.016189
+Feb 01, 2018 02:58:35.431 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 48.000000 0.003494
+Feb 01, 2018 02:58:35.431 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 23.976024 0.000049
+Feb 01, 2018 02:58:35.431 [0x7f4028eab800] DEBUG - [FFMPEG] - rfps: 47.952048 0.000195
+Feb 01, 2018 02:58:35.431 [0x7f4028eab800] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3827461 bytes read:3850639 seeks:0 nb_streams:2
+Feb 01, 2018 02:58:35.432 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.432 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.432 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.432 [0x7f4028eab800] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:58:35.437 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.437 [0x7f4028eab800] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:58:35.438 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.440 [0x7f4028eab800] DEBUG - [FFMPEG] - All info found
+Feb 01, 2018 02:58:35.441 [0x7f4028eab800] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3867967 bytes read:3883407 seeks:0 frames:4
+Feb 01, 2018 02:58:35.441 [0x7f4028eab800] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/2/58bf368deb7dfa10f06ee864a9c537eb99adfd6.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Feb 01, 2018 02:58:35.441 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.441 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.442 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Feb 01, 2018 02:58:35.444 [0x7f4028eab800] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:58:35.462 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.464 [0x7f4028eab800] DEBUG - [FFMPEG] - no picture 
+Feb 01, 2018 02:58:35.467 [0x7f4028eab800] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Feb 01, 2018 02:58:35.519 [0x7f4028eab800] DEBUG - Loaded memory image of size 960x540.
+Feb 01, 2018 02:58:35.559 [0x7f4028eab800] DEBUG - [MI] Closing input file: /data/tvshows/Game of Thrones/Season 07/Plex Versions/Original Quality/Game of Thrones/S07E07.mp4
+Feb 01, 2018 02:58:35.559 [0x7f4028eab800] DEBUG - [FFMPEG] - Statistics: 4096091 bytes read, 1 seeks
+Feb 01, 2018 02:58:35.560 [0x7f4028eab800] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.561 [0x7f4028eab800] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.562 [0x7f4028eab800] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/library/changestamp
+Feb 01, 2018 02:58:35.562 [0x7f4028eab800] DEBUG - Updating metadata item (save) (The Dragon and the Wolf) with ID 3
+Feb 01, 2018 02:58:35.563 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:58:35.563 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+Feb 01, 2018 02:58:35.564 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=analyzing
+Feb 01, 2018 02:58:35.565 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=analyzing
+Feb 01, 2018 02:58:35.565 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=thumbnailing
+Feb 01, 2018 02:58:35.566 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=thumbnailing
+Feb 01, 2018 02:58:35.566 [0x7f401b3ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=idle
+Feb 01, 2018 02:58:35.567 [0x7f401b3ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&mediaState=idle

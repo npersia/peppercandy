@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Season>
+  <art/>
+  <banners/>
+  <episodes>
+    <item external="True" key="7" originally_available_at="2017-08-27"/>
+  </episodes>
+  <posters>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7-5.jpg" sort_order="17" provider="com.plexapp.agents.thetvdb" media="com.plexapp.agents.thetvdb_052768ae58172620aa448dc5514d459d97a00517"/>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7-7.jpg" preview="com.plexapp.agents.thetvdb_056bcbb465f7cb92961c8138a1872ef79669da3b" sort_order="103" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7-6.jpg" preview="com.plexapp.agents.thetvdb_9723797d007be48ea8b2b9e19907b2fb4ad4916f" sort_order="141" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7-2.jpg" preview="com.plexapp.agents.thetvdb_06cd8e9d7659d8fe5e66fad785eb839e03610caf" sort_order="179" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7-8.jpg" preview="com.plexapp.agents.thetvdb_ffb4233ce730e38bc0526baba5257f90d3fac60c" sort_order="219" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7-9.jpg" preview="com.plexapp.agents.thetvdb_7b7e82277076d469fa6da2d5210b40abbcb39b6b" sort_order="220" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7.jpg" preview="com.plexapp.agents.thetvdb_74396d876ad4ad838dcd265ee82cd6ca763cff37" sort_order="269" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7-4.jpg" preview="com.plexapp.agents.thetvdb_26a38043770e69b722173d344c0c9687c47a96d6" sort_order="270" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://thetvdb.com/banners/seasons/121361-7-3.jpg" preview="com.plexapp.agents.thetvdb_4e7b8d9a0d157493ee7465e71549ae1df7690a32" sort_order="271" provider="com.plexapp.agents.thetvdb"/>
+  </posters>
+</Season>
