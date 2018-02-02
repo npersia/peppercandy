@@ -22,26 +22,6 @@ services:
     networks:
       net1:
 
-
-
-
-  organizr:
-    image: lsiocommunity/organizr
-    stdin_open: true
-    tty: true
-    ports:
-      - "8080:80"
-    volumes:
-      - "./organizr/config:/config"
-    environment:
-      - PGI=0
-      - PGU=0
-    networks:
-      net1:
-
-
-
-
   plex:
     image: linuxserver/plex
     stdin_open: true

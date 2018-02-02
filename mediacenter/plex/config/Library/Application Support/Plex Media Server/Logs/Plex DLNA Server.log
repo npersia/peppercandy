@@ -12,3 +12,5 @@ Feb 01, 2018 01:44:45.246 [0x7f8af78be800] DEBUG - Reading system DLNA client pr
 Feb 01, 2018 01:44:45.272 [0x7f8af78be800] DEBUG - Read 22 DLNA client profiles
 Feb 01, 2018 01:44:45.336 [0x7f8af78be800] DEBUG - DLNA device discovery enabled every 60 seconds
 Feb 01, 2018 01:44:45.353 [0x7f8af78be800] DEBUG - Initialization complete
+Feb 01, 2018 03:15:43.506 [0x7f8af78be800] DEBUG - Stopping UPNP server
+Feb 01, 2018 03:15:43.613 [0x7f8af78be800] WARN - Unable to obtain device address: friendlyName=Wireless Router TL-WR841N, type=urn:schemas-upnp-org:device:InternetGatewayDevice:1, modelDescription=Wireless Router TL-WR841N, uuid=060b7353-fca6-4070-85f4-1fbfb9add62c

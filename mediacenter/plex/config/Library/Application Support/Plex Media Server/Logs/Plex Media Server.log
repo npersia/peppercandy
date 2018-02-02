@@ -10757,3 +10757,58 @@ Feb 01, 2018 03:12:38.759 [0x7fbced3f5700] ERROR - LPE: unknown item 1.
 Feb 01, 2018 03:12:38.759 [0x7fbced3f5700] ERROR - Versions: failed to generate query for path library://46c1e64c-e4cb-4e13-aade-3f8267058694/directory/%2Flibrary%2Fmetadata%2F1%2Fchildren
 Feb 01, 2018 03:12:38.759 [0x7fbced3f5700] WARN - Versions: generator Game of Thrones has an empty version set query, assuming generator is no longer valid
 Feb 01, 2018 03:12:38.761 [0x7fbced3f5700] DEBUG - Versions: garbage collected in 0.0 seconds
+Feb 01, 2018 03:13:47.122 [0x7fbd097ff700] DEBUG - NetworkInterface: received Netlink message len=64, type=RTM_NEWLINK, flags=0x0
+Feb 01, 2018 03:13:47.122 [0x7fbd097ff700] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=2, flags=0x11043, change=0x0
+Feb 01, 2018 03:13:47.122 [0x7fbd097ff700] DEBUG - Network change.
+Feb 01, 2018 03:13:47.123 [0x7fbd097ff700] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 01, 2018 03:13:47.124 [0x7fbd097ff700] DEBUG - Network change notification but nothing changed.
+Feb 01, 2018 03:14:41.553 [0x7fbcf1bfe700] DEBUG - Sync: uploadStatus
+Feb 01, 2018 03:15:27.134 [0x7fbd0a7fd700] DEBUG - NetworkServiceBrowser: PLAYER departed after not being seen for 181.998000 seconds: 127.0.0.1
+Feb 01, 2018 03:15:43.504 [0x7fbd1e9a9800] DEBUG - Shutting down with signal 15
+Feb 01, 2018 03:15:43.504 [0x7fbd1e9a9800] DEBUG - Ordered to stop server.
+Feb 01, 2018 03:15:43.504 [0x7fbd1e9a9800] WARN - Timed out waiting for server to finish.
+Feb 01, 2018 03:15:43.504 [0x7fbd1e9a9800] DEBUG - Stopping server...
+Feb 01, 2018 03:15:43.504 [0x7fbd1e9a9800] DEBUG - HttpServer: Stopping server.
+Feb 01, 2018 03:15:43.504 [0x7fbd067fe700] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Feb 01, 2018 03:15:43.504 [0x7fbd067fe700] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Feb 01, 2018 03:15:43.504 [0x7fbd067fe700] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Feb 01, 2018 03:15:43.505 [0x7fbd1e9a9800] DEBUG - Server stopped.
+Feb 01, 2018 03:15:43.505 [0x7fbd1e9a9800] DEBUG - NetworkService: Stopping advertisement.
+Feb 01, 2018 03:15:43.505 [0x7fbd1e9a9800] DEBUG - Killing plug-ins.
+Feb 01, 2018 03:15:43.505 [0x7fbd1e9a9800] DEBUG - [com.plexapp.agents.localmedia] Killing.
+Feb 01, 2018 03:15:43.505 [0x7fbd1e9a9800] DEBUG - [com.plexapp.agents.plexthememusic] Killing.
+Feb 01, 2018 03:15:43.505 [0x7fbd1e9a9800] DEBUG - [com.plexapp.system] Killing.
+Feb 01, 2018 03:15:43.505 [0x7fbd1e9a9800] DEBUG - [com.plexapp.agents.thetvdb] Killing.
+Feb 01, 2018 03:15:43.505 [0x7fbd1e9a9800] DEBUG - Waiting for Plex DLNA Server to exit.
+Feb 01, 2018 03:15:43.627 [0x7fbd1e9a9800] DEBUG - Server is already in shutdown mode, ignoring this signal...
+Feb 01, 2018 03:15:43.629 [0x7fbd0ffff700] DEBUG - JobManager: child process killed by signal: 15 (Terminated)
+Feb 01, 2018 03:15:43.629 [0x7fbd083ff700] DEBUG - Plex DLNA Server exited.
+Feb 01, 2018 03:15:43.629 [0x7fbd1e9a9800] DEBUG - Waiting for Plex Tuner Service to exit.
+Feb 01, 2018 03:15:43.633 [0x7fbd0ffff700] DEBUG - JobManager: child process killed by signal: 15 (Terminated)
+Feb 01, 2018 03:15:43.638 [0x7fbd06fff700] DEBUG - Plex Tuner Service exited.
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Killing job.
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Signalling job ID 7438 with 9
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Database: Shutting down.
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Captured session 0.
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Captured session 1.
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Captured session 2.
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Captured session 3.
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Captured session 4.
+Feb 01, 2018 03:15:43.642 [0x7fbd1e9a9800] DEBUG - Captured session 5.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 6.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 7.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 8.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 9.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 10.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 11.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 12.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 13.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 14.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 15.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 16.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 17.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 18.
+Feb 01, 2018 03:15:43.643 [0x7fbd1e9a9800] DEBUG - Captured session 19.
+Feb 01, 2018 03:15:43.658 [0x7fbd1e9a9800] DEBUG - Database: Shutting down.
+Feb 01, 2018 03:15:43.658 [0x7fbd1e9a9800] DEBUG - Captured session 0.
+Feb 01, 2018 03:15:43.658 [0x7fbd1e9a9800] DEBUG - Captured session 1.

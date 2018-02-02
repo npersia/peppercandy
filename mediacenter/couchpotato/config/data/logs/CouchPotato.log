@@ -324,3 +324,5 @@
     for f in os.listdir(path):
 OSError: [Errno 13] Permission denied: '/root'
 [0m
+02-01 03:15:43 INFO [0m[chpotato.core._base._core] Shutting down[0m
+02-01 03:15:43 INFO [0mShutting down thread pool[0m
